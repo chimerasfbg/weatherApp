@@ -1,10 +1,20 @@
+body {
+    background-color: #ece5ce;
+    font-family: 'Comfortaa', cursive;
+}
+
+
 .containerWeather{
+    margin-top:10rem;
     margin:auto;
     text-align: center;
     box-sizing: border-box;
     border-radius: 100px;
     width: 400px;
-    background-color: rgb(248, 227, 219);
+    background-color: #ece5ce;
+}
+.title{
+    margin-top: 2em;
 }
 
 .change-location input{
