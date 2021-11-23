@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="styles.css">
+    <title>WeatherApp</title>
+</head>
+<body>
+
+    <div class="containerWeather">
+        <h1>Sunny Days Comeing</h1>
+        <form class="change-location">
+            <label for="city">Enter a Location for weather info</label> <br>
+            <input type="text" name="city">
+        </form>
+
+        <div class="card none">
+            <img src="" class="time" alt="">
+            <div class="icon">  </div>
+            <div class="details">
+                <h1 class="cityName">City name</h1>
+                <div class="conditions">weather contitions</div>
+                <div>
+                    <span>temp</span>
+                    <span>&deg;C </span>
+                </div>
+            </div>
+        </div>
+    </div>
+     <script src="./scripts/forecast.js"></script>
+     <script src="./scripts/app.js"></script>
+</body>
+</html>
