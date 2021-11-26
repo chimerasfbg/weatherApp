@@ -1,5 +1,5 @@
 body {
-    background-color: #ece5ce;
+    background-image: linear-gradient(90deg, #0d3c61,#1769aa );
     font-family: 'Comfortaa', cursive;
 }
 
@@ -10,8 +10,20 @@ body {
     text-align: center;
     box-sizing: border-box;
     border-radius: 100px;
-    width: 400px;
-    background-color: #ece5ce;
+    width: 500px;
+    background-color: #ffba5f;
+    box-shadow: 2px 7px #888888;
+}
+
+.containerWeather h1{
+    padding-top: 1em;
+}
+
+.details{
+    padding-bottom: 1em;
+}
+#city{
+    color: black;
 }
 .title{
     margin-top: 2em;
